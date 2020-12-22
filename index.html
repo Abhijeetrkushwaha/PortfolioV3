@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="./assets/css/all.min.css" />
   <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" />
   <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css" />
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css">
   <title>Abhijeet Kushwaha</title>
 </head>
 <body>
@@ -17,56 +18,86 @@
 
   <!-- main-container starts -->
   <div class="main-container">
-  <!-- header-starts -->
-  <header>
-    <nav>
-      <div class="personal-info">
-        <div class="profile-img">
-          <img src="./assets/images/abhijeet.jpg" alt="" />
-        </div>
-        <h5 class="text-center">
-          <span style="color: #6358CA">Abhijeet Kushwaha</span>
-        </h5>
-        <h6 class="text-center text-white">FULLSTACK WEB DEVELOPER</h6>
-      </div>
-      <ul class="nav-list">
-        <li class="nav-item"><a href="#about" class="nav-link  current-page"><i class="fas fa-home"></i>Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-user-circle"></i>About Us</a></li>
-        <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-pen"></i>Skills</a></li>
-        <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-project-diagram"></i>Portfolio</a></li>
-        <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-address-book"></i>Contact</a></li>
-      </ul>
-      <a href="mailto:abhijeetrkushwaha28@gmail.com" class="let-talk">abhijeetrkushwaha28@gmail.com</a>
-    </nav>
-  </header>
 
-  <!-- main-starts -->
-  <main>  
-    <!-- hero-starts -->
-    <section id="hero" class="hero">
-      <div class="container">
-        <h1>
-          I'm
-          <span class="my-name" style="color: #6358CA">Abhijeet</span>
-          Kushwaha
-        </h1>
-        <h3>FullStack Web Developer, UI/UX Designer.</h3>
-        <!-- <button class="main-btn">View Projects</button> -->
-        <a href="#portfolio" class="btn-hover color-2">View Projects</a>
-        <br /><br />
-        <div class="social-links">
-          <!-- <i class="fab fa-facebook-messenger"></i>
-               <i class="fab fa-whatsapp"></i>
-               <i class="fab fa-telegram-plane"></i> -->
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-facebook-square"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        </div>
+    <!-- header-for-mobile-starts -->
+
+    <div class="d-block d-lg-none side-nav">
+      <div
+        class="side-menu-close d-flex d-lg-none flex-wrap flex-column align-items-center justify-content-center ml-auto">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-    </section>
-  </main>
+    </div>
+
+    <!-- header-starts -->
+    <header class="side-nav-content d-block d-lg-none">
+      <nav>
+        <div class="personal-info">
+          <div class="profile-img">
+            <img src="./assets/images/abhijeet.jpg" alt="" />
+          </div>
+          <h5 class="text-center">
+            <span style="color: #6358CA">Abhijeet Kushwaha</span>
+          </h5>
+          <h6 class="text-center text-white">FULLSTACK WEB DEVELOPER</h6>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link  current-page"><i class="fas fa-home"></i>Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-user-circle"></i>About Us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-pen"></i>Skills</a></li>
+          <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-project-diagram"></i>Portfolio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-address-book"></i>Contact</a></li>
+        </ul>
+        <a href="mailto:abhijeetrkushwaha28@gmail.com" class="let-talk">abhijeetrkushwaha28@gmail.com</a>
+      </nav>
+    </header>
+
+    <!-- header-starts -->
+    <header class="d-none d-lg-block">
+      <nav>
+        <div class="personal-info">
+          <div class="profile-img">
+            <img src="./assets/images/abhijeet.jpg" alt="" />
+          </div>
+          <h5 class="text-center">
+            <span style="color: #6358CA">Abhijeet Kushwaha</span>
+          </h5>
+          <h6 class="text-center text-white">FULLSTACK WEB DEVELOPER</h6>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link  current-page"><i class="fas fa-home"></i>Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-user-circle"></i>About Us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-pen"></i>Skills</a></li>
+          <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-project-diagram"></i>Portfolio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-address-book"></i>Contact</a></li>
+        </ul>
+        <a href="mailto:abhijeetrkushwaha28@gmail.com" class="let-talk">abhijeetrkushwaha28@gmail.com</a>
+      </nav>
+    </header>
+
+    <!-- main-starts -->
+    <main>  
+      <!-- hero-starts -->
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1>I'm <span class="my-name">Abhijeet</span> Kushwaha</h1>
+            <h3>FullStack Web Developer, UI/UX Designer.</h3>
+            <a href="#portfolio" class="btn-hover color-2 btn-lg d-none d-lg-inline-block">View Projects</a>
+            <a href="#portfolio" class="btn-hover color-2 btn-sm d-inline-block d-lg-none">View Projects</a>
+            <br /><br />
+            <div class="social-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
   <script src="./assets/js/jquery3.5.1.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>

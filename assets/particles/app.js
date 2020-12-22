@@ -134,7 +134,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 particlesJS("particles-js", {
   particles: {
     number: { value: 200, density: { enable: true, value_area: 800 } },
-    color: { value: "#FD4454" },
+    color: { value: "#C254E5" },
     shape: {
       type: "circle",
       stroke: { width: 0, color: "#000000" },

@@ -1,0 +1,44 @@
+@media screen and (max-width: 991px){
+  main {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 992px){
+  h1{
+    font-size: 50px;
+  }
+  h3{
+    font-size: 25px;
+  }
+  .hero-content .social-links a i{
+    font-size: 15px;
+  }
+  .hero-content .social-links a {
+    margin: 5px 0;
+    width: 35px;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 768px){
+  h1{
+    font-size: 35px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  .personal-info .profile-img{
+    width: 100px;
+  }
+  .personal-info .profile-img img{
+    border-radius: 50%;
+    margin-bottom: 15px;
+    -webkit-animation: animate 1s linear infinite;
+            animation: animate 1s linear infinite;
+  }
+  .nav-list .nav-item .nav-link{
+    font-size: 16px;
+  }
+  .let-talk{
+   /* font-size: 15px; */
+  }
+}
