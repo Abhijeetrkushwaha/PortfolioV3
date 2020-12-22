@@ -21,10 +21,10 @@
 }
 @media screen and (max-width: 768px){
   h1{
-    font-size: 35px;
+    font-size: 30px;
   }
   h3{
-    font-size: 20px;
+    font-size: 18px;
   }
   .personal-info .profile-img{
     width: 100px;
