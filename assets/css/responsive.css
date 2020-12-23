@@ -51,6 +51,9 @@
   .personal-info .profile-img{
     width: 100px;
   }
+  .heading{
+    font-size: 30px;
+  }
   .personal-info .profile-img img{
     border-radius: 50%;
     margin-bottom: 15px;
