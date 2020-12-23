@@ -35,6 +35,9 @@ h1 {
 h2{
   font-size: 40px;
 }
+p{
+  letter-spacing: .5px;
+}
 img{
   -o-object-fit: contain;
      object-fit: contain;
@@ -300,4 +303,25 @@ section {
 .overview-img{
   width: 70px;
   padding: 10px;
+}
+.main-data{
+  color: #b9b9b9;
+}
+.about-detail{
+  margin-top: 30px;
+}
+.about-detail-info{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.about-detail-info-img{
+  width: 50px;
+  margin-right: 20px;
+  background-color: #1F1C5F;
+  padding: 10px;
+  border-radius: 50%;
+}
+.about-detail-info-content p{
+  margin: 0;
 }
