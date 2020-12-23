@@ -265,8 +265,9 @@ section {
 
 .side-nav-content{
   position: fixed;
+  width: 250px;
   top: 0;
-  left: -280px;
+  left: -250px;
   transition: .4s ease;
 }
 .side-nav-content.opened{

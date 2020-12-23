@@ -35,7 +35,16 @@
     -webkit-animation: animate 1s linear infinite;
             animation: animate 1s linear infinite;
   }
+  .personal-info h6{
+    font-size: 14px;
+  }
+  .personal-info h5{
+    font-size: 20px;
+  }
   .nav-list .nav-item .nav-link{
     font-size: 16px;
+  }
+  .let-talk{
+    font-size: 14px;
   }
 }
