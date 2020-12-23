@@ -2,6 +2,13 @@
   main {
     margin-left: 0;
   }
+  .side-nav-content{
+    position: fixed;
+    width: 250px;
+    top: 0;
+    left: -250px;
+    transition: .4s ease;
+  }
 }
 @media screen and (max-width: 992px){
   h1{
@@ -17,6 +24,21 @@
     margin: 5px 0;
     width: 35px;
     height: 35px;
+  }
+  .side-nav-content.opened{
+    left: 0;
+  }
+  .personal-info h6{
+    font-size: 14px;
+  }
+  .personal-info h5{
+    font-size: 20px;
+  }
+  .nav-list .nav-item .nav-link{
+    font-size: 16px;
+  }
+  .let-talk{
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 768px){
@@ -34,17 +56,5 @@
     margin-bottom: 15px;
     -webkit-animation: animate 1s linear infinite;
             animation: animate 1s linear infinite;
-  }
-  .personal-info h6{
-    font-size: 14px;
-  }
-  .personal-info h5{
-    font-size: 20px;
-  }
-  .nav-list .nav-item .nav-link{
-    font-size: 16px;
-  }
-  .let-talk{
-    font-size: 14px;
   }
 }
