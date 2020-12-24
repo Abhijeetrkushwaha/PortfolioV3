@@ -44,6 +44,9 @@ img{
   width: 100%;
   height: auto;
 }
+.margin-top{
+  margin-top: 30px;
+}
 .home-area {
   background-color: #171651;
   width: 100%;
@@ -285,9 +288,6 @@ section {
 .about{
   background-color: #070640;
 }
-.about-content{
-  margin-top: 30px;
-}
 .heart{
   color: red;
 }
@@ -331,17 +331,9 @@ section {
   margin: 0;
 }
 
-/* Experience-starts */
-.experience-info{
-  margin-top: 30px;
-}
-
 /* Skills-starts */
 .skills{
   background-color: #070640;
-}
-.skill-content{
-  margin-top: 30px;
 }
 .skills-info{
   padding: 0 15px;
@@ -361,9 +353,6 @@ section {
 }
 
 /* Projects-starts */
-.project-grid{
-  margin-top: 30px;
-}
 .project {
   position: relative;
 }

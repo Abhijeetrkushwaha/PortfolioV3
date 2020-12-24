@@ -51,6 +51,9 @@
   h3{
     font-size: 18px;
   }
+  .margin-top{
+    margin-top: 10px;
+  }
   .personal-info .profile-img{
     width: 100px;
   }
