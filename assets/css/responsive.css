@@ -40,6 +40,9 @@
   .let-talk{
     font-size: 14px;
   }
+  .about-detail-info{
+    margin-bottom: 20px;
+  }
 }
 @media screen and (max-width: 768px){
   h1{

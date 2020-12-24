@@ -313,7 +313,6 @@ section {
 .about-detail-info{
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
 }
 .about-detail-info-img{
   width: 50px;
