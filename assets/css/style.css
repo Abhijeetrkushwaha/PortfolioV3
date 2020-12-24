@@ -388,7 +388,7 @@ section {
 .project-content:hover{
   opacity: 1;
 }
-.project-content .project-heading h3{
+.project-content .project-heading .project-heading-title{
   line-height: 15px;
   font-size: 40px;
   color: #171651;
@@ -404,6 +404,7 @@ section {
 .project-content:hover .project-heading, .project-content:hover .learn-more{
   transform: translateY(0px);
 }
+
 .modal{
   padding-right: 0 !important;
 }
@@ -476,8 +477,12 @@ section {
 button.close{
   position: absolute;
   top: 5px;
-  right: 10px;
+  right: 5px;
   z-index: 1;
+  padding: 3px 10px 5px;
+  background-color: #fff;
+  opacity: 1;
+  color: #1B1B57;
 }
 .project-detail{
   color: #fff;
@@ -485,6 +490,8 @@ button.close{
 .project-detail-title{
   padding: 10px;
   background-color: #23255E;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 .project-detail-content{
   padding: 10px;
