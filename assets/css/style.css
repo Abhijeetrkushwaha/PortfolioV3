@@ -205,7 +205,12 @@ section {
 }
 
 
-
+.side-nav .brand-logo{
+  width: 40px;
+  position: absolute;
+  left: 5px;
+  top: 10px;
+}
 .side-nav .side-menu-close {
   position: absolute;
   right: 5px;
@@ -218,6 +223,7 @@ section {
   -ms-border-radius: 0;
   -o-border-radius: 0;
 }
+
 
 .side-menu-close {
   height: 40px;
@@ -328,4 +334,28 @@ section {
 /* Experience-starts */
 .experience-info{
   margin-top: 30px;
+}
+
+/* Skills-starts */
+.skills{
+  background-color: #070640;
+}
+.skill-content{
+  margin-top: 30px;
+}
+.skills-info{
+  padding: 0 15px;
+  color: #070640;
+  margin-bottom: 20px;
+}
+.skills-info .skills-detail{
+  padding: 15px 25px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.skills-info .skills-detail .skills-img{
+  width: 50px;
+}
+.skills-info .skills-detail .skills-title{
+  margin-top: 10px;
 }
