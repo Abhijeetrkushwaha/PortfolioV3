@@ -12,3 +12,10 @@ selector('.side-menu-close').addEventListener('click', () => {
     selector('.side-menu-close').classList.add('closed');
   }
 })
+
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  nav: true,
+  dots: false,
+  items: 1,
+})
