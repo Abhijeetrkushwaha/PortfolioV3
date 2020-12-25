@@ -350,6 +350,7 @@ section {
   padding: 15px 25px;
   background-color: #fff;
   border-radius: 4px;
+  box-shadow: 0 0 28px 0 rgba(241, 241, 241, 0.3);
 }
 .skills-info .skills-detail .skills-img{
   width: 50px;
@@ -525,4 +526,9 @@ button.close{
 }
 .view .git a{
   background: linear-gradient(0deg, #000000, #252525)
+}
+.tech{
+  background-color: #6358CA;
+  padding: 7px 20px;
+  border-radius: 3px;
 }
