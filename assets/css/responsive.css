@@ -2,6 +2,9 @@
   main {
     margin-left: 0;
   }
+  footer{
+    margin-left: 0;
+  }
   .side-nav-content{
     position: fixed;
     width: 250px;
@@ -17,10 +20,10 @@
   h3{
     font-size: 25px;
   }
-  .hero-content .social-links a i{
+  .social-links a i{
     font-size: 15px;
   }
-  .hero-content .social-links a {
+  .social-links a {
     margin: 5px 0;
     width: 35px;
     height: 35px;
@@ -45,6 +48,12 @@
   }
   .about-detail-info{
     margin-bottom: 20px;
+  }
+  .social-link-footer a{
+    margin: 0 10px;
+  }
+  .contact-me-question{
+    margin: 10px 0;
   }
 }
 @media screen and (max-width: 768px){
@@ -71,6 +80,9 @@
   }
   .project-content .project-heading .project-heading-title{
     font-size: 30px;
+  }
+  .footer-content h6{
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 400px){
