@@ -529,6 +529,9 @@ button.close{
 }
 .tech{
   background-color: #6358CA;
-  padding: 7px 20px;
+  padding: 7px 15px;
   border-radius: 3px;
+}
+.tech span{
+  font-size: 14px;
 }
