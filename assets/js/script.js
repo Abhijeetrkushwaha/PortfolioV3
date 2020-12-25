@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+  // owl-carousel for projects
   $('.owl-carousel').owlCarousel({
     loop:true,
     nav: true,
@@ -6,10 +8,12 @@ $(document).ready(function() {
     items: 1,
   })
 
+  // selector that works like jquery for fast coding
   let selector = (e) => {
     return document.querySelector(e)
   }
   
+  // Nav bar toggle event
   selector('.side-menu-close').addEventListener('click', () => {
   
     if(selector('.side-menu-close').classList.contains('closed')){
@@ -21,6 +25,7 @@ $(document).ready(function() {
       selector('.side-menu-close').classList.add('closed');
       selector('body').style = 'overflow: hidden';
     }
+
   })
   
   $('.nav-link').on('click', () => {
@@ -39,6 +44,7 @@ $(document).ready(function() {
     easing: "swing",
   });
 
+  // Reset nav bar on large size
   window.addEventListener('resize', function(event){
     var newWidth = window.innerWidth;
     

@@ -544,3 +544,13 @@ button.close{
 .contact{
   background-color: #070640;
 }
+form{
+  background-color: #171651;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin: 0 30px;
+}
+.form-control:focus{
+  border-color: none;
+  box-shadow: none;
+}
