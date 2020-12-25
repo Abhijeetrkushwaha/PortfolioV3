@@ -5,7 +5,7 @@ $(document).ready(function() {
     dots: false,
     items: 1,
   })
-  
+
   let selector = (e) => {
     return document.querySelector(e)
   }
@@ -28,4 +28,14 @@ $(document).ready(function() {
     selector('.side-menu-close').classList.remove('closed');
     selector('body').style = 'overflow: visible';
   })
+
+  // highlight class will added depending on the sections.
+  $("#Menu").onePageNav({
+    currentClass: "current-page",
+    changeHash: false,
+    scrollSpeed: 750,
+    scrollThreshold: 0.5,
+    filter: "",
+    easing: "swing",
+  });
 });
