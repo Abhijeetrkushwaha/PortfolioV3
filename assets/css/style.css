@@ -389,6 +389,9 @@ section {
   font-size: 40px;
   color: #171651;
 }
+.project-heading p{
+  margin-top: 20px;
+}
 .project-content .project-heading{
   transform: translateY(-50px);
   transition: .4s ease;
@@ -534,4 +537,9 @@ button.close{
 }
 .tech span{
   font-size: 14px;
+}
+
+/* Contact-starts */
+.contact{
+  background-color: #070640;
 }
