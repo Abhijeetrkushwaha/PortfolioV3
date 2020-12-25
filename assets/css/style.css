@@ -104,13 +104,13 @@ header {
 }
 .let-talk{
   position: absolute;
-  bottom: 30px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
 }
 .nav-list .nav-item .nav-link{
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   transition: .2s ease;
 }
 .nav-list .nav-item .nav-link i{
@@ -329,6 +329,12 @@ section {
 }
 .about-detail-info-content p{
   margin: 0;
+}
+.overview-img{
+  transition: .4s ease;
+}
+.overview-item:hover .overview-img{
+  transform: rotate(360deg);
 }
 
 /* Skills-starts */
