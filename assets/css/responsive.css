@@ -84,9 +84,21 @@
   .footer-content h6{
     font-size: 12px;
   }
+  .more-detail a{
+    font-size: 12px;
+  }
+  .more-detail{
+    padding: 5px 10px;
+  }
+  .social-link-footer{
+    padding-top: 20px;
+  }
 }
 @media screen and (max-width: 400px){
   .skills-info{
     padding: 0 0px;
+  }
+  form{
+    margin: 0 0px;
   }
 }
