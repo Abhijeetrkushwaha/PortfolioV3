@@ -491,6 +491,7 @@ button.close{
   background-color: #23255E;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
+  font-size: 25px;
 }
 .project-detail-content{
   padding: 10px;

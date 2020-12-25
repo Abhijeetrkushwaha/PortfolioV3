@@ -38,4 +38,16 @@ $(document).ready(function() {
     filter: "",
     easing: "swing",
   });
+
+  window.addEventListener('resize', function(event){
+    var newWidth = window.innerWidth;
+    
+    if(newWidth > 991) {
+      selector('.side-nav-content').classList.remove('opened');
+      selector('.side-menu-close').classList.remove('closed');
+      selector('body').style = 'overflow: visible';
+    }
+
+  });
+
 });

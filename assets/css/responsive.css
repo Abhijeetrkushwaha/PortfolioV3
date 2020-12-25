@@ -40,6 +40,9 @@
   .let-talk{
     font-size: 14px;
   }
+  .btn-hover.color-2 {
+    border: 1px solid #0b0952;
+  }
   .about-detail-info{
     margin-bottom: 20px;
   }
