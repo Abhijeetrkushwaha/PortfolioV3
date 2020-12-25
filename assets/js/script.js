@@ -1,3 +1,10 @@
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  nav: true,
+  dots: false,
+  items: 1,
+})
+
 let selector = (e) => {
   return document.querySelector(e)
 }
@@ -13,11 +20,4 @@ selector('.side-menu-close').addEventListener('click', () => {
     selector('.side-menu-close').classList.add('closed');
     selector('body').style = 'overflow: hidden';
   }
-})
-
-$('.owl-carousel').owlCarousel({
-  loop:true,
-  nav: true,
-  dots: false,
-  items: 1,
 })
