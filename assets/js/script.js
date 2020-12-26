@@ -56,4 +56,51 @@ $(document).ready(function() {
 
   });
 
+  // Validation code for form
+  $('#btn_submit').click((e) => {
+
+    $(".err").hide();
+    var hasError = false;
+    var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+
+    let name = $('#name').val().trim(),
+    email = $('#email').val().trim(),
+    message = $('#message').val().trim();
+
+    if(name == '') {
+      $("#name").after('<span class="err">Please enter your name.</span>');
+      hasError = true;
+    }
+
+    if(email == '') {
+      $("#email").after('<span class="err">Please enter your email address.</span>');
+      hasError = true;
+    }
+
+    if(!emailReg.test(email)) {
+      $("#email").after('<span class="err">Enter a valid email address.</span>');
+      hasError = true;
+    }
+
+    if(message == '') {
+      $("#message").after('<span class="err">Please enter your name.</span>');
+      hasError = true;
+    }
+
+    e.preventDefault()
+
+    if(hasError == true) { 
+      return false; 
+    } else {
+      $("#name").val("");
+      $("#email").val("");
+      $("#message").val("");
+      $('#btn_submit').after('<p class="success mt-2">Thanks for connecting</p>')
+      setTimeout(() => {
+        $('.success').hide()
+      }, 1000)
+    }
+
+  })
+
 });

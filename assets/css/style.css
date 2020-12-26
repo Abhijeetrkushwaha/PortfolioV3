@@ -350,7 +350,7 @@ section {
   padding: 15px 25px;
   background-color: #fff;
   border-radius: 4px;
-  box-shadow: 0 0 28px 0 rgba(241, 241, 241, 0.3);
+  box-shadow: 0 0 28px 0 rgba(241, 241, 241, 0.1);
 }
 .skills-info .skills-detail .skills-img{
   width: 50px;
@@ -577,6 +577,10 @@ form{
 }
 .more-detail i{
   margin-right: 3px;
+}
+.err{
+  font-size: 14px;
+  color: red;
 }
 
 /* Footer-starts */
