@@ -83,7 +83,7 @@ $(document).ready(function() {
     }
 
     if(message == '') {
-      $("#message").after('<span class="err">Please enter your name.</span>');
+      $("#message").after('<span class="err">Please enter your message.</span>');
       hasError = true;
     }
 
