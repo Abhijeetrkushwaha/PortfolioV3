@@ -6,10 +6,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-html {
-  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
-  /* scroll-behavior: smooth; */
-}
 body {
   background: #171651;
   font-family: "Raleway", sans-serif;
