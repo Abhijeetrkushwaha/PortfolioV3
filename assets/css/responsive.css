@@ -78,6 +78,9 @@
     -webkit-animation: animate 1s linear infinite;
             animation: animate 1s linear infinite;
   }
+  .experience-content{
+    font-size: 14px;
+  }
   .project-content .project-heading .project-heading-title{
     font-size: 30px;
   }
