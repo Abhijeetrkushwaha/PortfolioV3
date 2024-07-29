@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'");
 *,
 *::before,
 *::after {
@@ -8,7 +8,7 @@
 }
 body {
   background: #171651;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   /* font-family: 'Open Sans', sans-serif; */
   /* font-family: 'Roboto Slab', serif; */
 }
@@ -641,4 +641,14 @@ footer {
 }
 .footer-content h6 {
   font-size: 15px;
+}
+.experience-content > .content > .title {
+  text-decoration: underline;
+  font-weight: bold;
+  font-weight: 18px;
+}
+
+.experience-content > .content > .description > span {
+  font-style: italic;
+  font-weight: bold;
 }
